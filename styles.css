@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Voces&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trirong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+
+:root{
+    --light-salmon: #F59F79ff;
+    --sapphire-blue: #076AA7ff;
+    --independence: #43476Bff;
+    --pale-cerulean: #A4CDE6ff;
+    --mauve-taupe: #8D6A72ff;
+    --indigo-dye: #1C406Aff;
+    --fawn: #E8A975ff;
+    --brown-sugar: #9C6047ff;
+    --carolina-blue: #0F99D4ff;
+    --bone: #DAD6CAff;
+}
+
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+
+img {
+    width: 100px;
+}
+
+#opener{
+    background-image: url("images/london.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: 100% 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#opener-title > h1{
+    color: var(--independence);
+    padding: 0px 12px;
+    margin: 4px 0px;
+}
+
+#opener-subtitle > h2{
+    color: var(--bone);
+    padding: 0px 4px;
+    margin: 2px 4px;
+    word-break: break-all;
+    width: 437px;
+}
+
+#opener-title{
+    background-color: var(--bone);
+    margin: 20px;
+    border-radius: 5px;
+    font-family: 'Arbutus Slab', serif;
+}
+
+#opener-subtitle{
+    background-color: var(--independence);
+    font-family: 'Voces', cursive;
+}
+
+#activities{
+    display: flex;
+    flex-direction: column;
+}
+
+#activities-title{
+    font-family: 'Trirong', serif;
+    font-weight: 800;
+}
+
+#places{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.places-img{
+    border-radius: 50%;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+#places > div{
+    flex: 1 1 30%;
+}
+
+#places > div > h4{
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin: 0px;
+}
+
+#places > div > h3{
+    font-family: 'Peddana', serif;
+    font-size: 24px;
+    margin: 5px 0px 0px 0px;
+}
+
+#guide{
+    margin: 70px auto 40px auto;
+    padding: 5px;
+    width: 46vh;
+    background-color: var(--pale-cerulean);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 27vh;
+    padding: 1.5% 1.5% 2% 1.5%;
+    border-bottom: var(--indigo-dye) solid 5px;
+}
+
+#guide-text{
+    flex: 0 0 50%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#guide-img{
+    flex: 0 0 40%;
+    background-image: url(images/per.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
+
+#guide-text > h3{
+    font-family: 'Trirong', serif;
+    margin: 0;
+}
+
+#guide-text > p{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-style: italic;
+    margin: 0;
+}
+
+#guide-text > h4{
+    margin: 0;
+}
